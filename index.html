@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Special Design</title>
+</head>
+<body>
+    <!-- Start Setting Box -->
+    <div class="setting-box">
+        <div class="icon-container">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="settings">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="#55efc4"></li>
+                    <li data-color="#F28854"></li>
+                    <li data-color="#DC0F14"></li>
+                    <li data-color="#5D5DF9"></li>
+                    <li data-color="#02d0db"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Backgrounds</h4>
+                <div class="background-btn" id="box">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box" >
+                <h4>Show Bullets</h4>
+                <div class="bullet-btn" id="box">
+                    <span class="yes active" data-bullet="block">Yes</span>
+                    <span class="no" data-bullet="none">No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset</button>
+        </div>
+    </div>
+    <!-- End Setting Box -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".landing">
+            <div class="label">Home</div>
+        </div>
+        <div class="bullet" data-section=".about">
+            <div class="label">About</div>
+        </div>
+        <div class="bullet" data-section=".our-skills">
+            <div class="label">Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="label">Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="label">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="label">Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="label">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="label">Contact</div>
+        </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="overaly"></div>
+        <div class="container">
+            <div class="header">
+                <div class="icon">
+                    <a href="#"><img src="imgs/Untitled-1.png" alt=""></a>
+                </div>
+                <div class="inks-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about">About</a></li>
+                        <li><a href="#" data-section=".our-skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menuReg-container">
+                    <span class="register">Register Now</span>
+                    <div class="toggle-menu"><i class="fas fa-bars"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1>We Are <span>Medical</span> Meta</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sapiente, recusandae error nisi itaque dolorem delectus cum eius!</p>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start About  -->
+    <div class="container">
+        <div class="about" id="about">
+            <div class="about-info">
+                <h2>About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore dolor reiciendis fuga sunt facere aperiam, porro aliquid perferendis. Minima hic soluta architecto corrupti consequatur optio laborum blanditiis iure explicabo</p>
+            </div>
+            <div class="medical-img">
+                <img src="imgs/medical illustration.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About  -->
+    <!-- Start Skills -->
+    <div class="our-skills" id="our-skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-width="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-width="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-progress">
+                    <span data-width="95%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span data-width="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span data-width="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">MySQL</div>
+                <div class="skill-progress">
+                    <span data-width="75%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery-box">
+                <div class="icon-box" data-info="Laptop Medical"><i class="fas fa-laptop-medical"></i></div>
+                <div class="icon-box" data-info="Clincal Medical"><i class="fas fa-clinic-medical"></i></div>
+                <div class="icon-box" data-info="First Aid"><i class="fas fa-first-aid"></i></div>
+                <div class="icon-box" data-info="Lab Medical"><i class="fas fa-vial"></i></div>
+                <div class="icon-box" data-info="Biohazard"><i class="fas fa-biohazard"></i></div>
+                <div class="icon-box" data-info="Virus"><i class="fas fa-virus"></i></div>
+                <div class="icon-box" data-info="DNA"><i class="fas fa-dna"></i></div>
+                <div class="icon-box" data-info="Heart Beat"><i class="fas fa-heartbeat"></i></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <i class="fas fa-notes-medical"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, sequi tempore quibusdam voluptates praesentium deleniti modi quod reprehenderit odio repellat qui excepturi error molestiae unde atque at obcaecati, cumque hic?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <i class="fas fa-notes-medical"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, sequi tempore quibusdam voluptates praesentium deleniti modi quod reprehenderit odio repellat qui excepturi error molestiae unde atque at obcaecati, cumque hic?</p>
+                    </div>
+                </div>
+                <div class="year">2016</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <i class="fas fa-notes-medical"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, sequi tempore quibusdam voluptates praesentium deleniti modi quod reprehenderit odio repellat qui excepturi error molestiae unde atque at obcaecati, cumque hic?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <i class="fas fa-notes-medical"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, sequi tempore quibusdam voluptates praesentium deleniti modi quod reprehenderit odio repellat qui excepturi error molestiae unde atque at obcaecati, cumque hic?</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <i class="fas fa-notes-medical"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, sequi tempore quibusdam voluptates praesentium deleniti modi quod reprehenderit odio repellat qui excepturi error molestiae unde atque at obcaecati, cumque hic?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/x-ray.png" alt="">
+                <h4>X-Ray</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/seo.png" alt="">
+                <h4>SEO</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/responsive.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/consultation.png" alt="">
+                <h4>Consultation</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/medical-care.png" alt="">
+                <h4>Medical Care</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/medical-team.png" alt="">
+                <h4>Medical Team</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione debitis vel veritatis </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="container">
+            <div class="ts-box">
+                <div class="waves"></div>
+                <i class="fas fa-quote-left"></i>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus porro quos veritatis cumque, aut adipisci sint architecto distinctio molestias aperiam, assumenda deserunt velit maiores quo tempora repudiandae quam officia id.</p>
+                    <img src="imgs/profile.png" alt="">
+                    <h3>Abd Elmalik</h3>
+                    <span>Software Engineer</span>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="ts-box">
+                <div class="waves"></div>
+                <i class="fas fa-quote-left"></i>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus porro quos veritatis cumque, aut adipisci sint architecto distinctio molestias aperiam, assumenda deserunt velit maiores quo tempora repudiandae quam officia id.</p>
+                    <img src="imgs/engineer.png" alt="">
+                    <h3>Abdallah Essam</h3>
+                    <span>Civil Engineer</span>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="ts-box">
+                <div class="waves"></div>
+                <i class="fas fa-quote-left"></i>
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus porro quos veritatis cumque, aut adipisci sint architecto distinctio molestias aperiam, assumenda deserunt velit maiores quo tempora repudiandae quam officia id.</p>
+                    <img src="imgs/doctor.png" alt="">
+                    <h3>Mohamed Swelam</h3>
+                    <span>Dermatologists</span>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" name="username" placeholder="Your Name">
+                    <input type="tel" name="phone" placeholder="Your Phone">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">Made With <span class="love">♥</span> By Abd Elmalik</div>
+    <!-- End Footer -->
+    <script src="js/master.js"></script>
+</body>
+</html>
