@@ -755,6 +755,8 @@ html {
     font-size: 20px;
     color: var(--main-color);
     position: relative;
+    width: 100%;
+    text-align: center;
 }
 .features .feat-box h4::before {
     content: "";
